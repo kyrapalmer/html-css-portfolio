@@ -1,0 +1,415 @@
+/* /* --- General Styling --- 
+* {
+  box-sizing: border-box;
+  font-family: Futura, sans-serif;
+  line-height: 1.5;
+}
+
+
+
+html {
+  display: flex;
+}
+
+header {
+  background-color: #ffcce6;
+
+}
+
+header h1 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
+/* --- Navigation --- 
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  color: white;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+header nav ul li a:hover {
+  color: red;
+}
+
+@media all and (min-width: 700px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header h1 {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+
+
+
+/* --- Primary Groups --- 
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.cute-intro {
+  background-color: #ffcce6;
+  background-image: url(images/heartbackground.jpg);
+ 
+  padding-top: 80px;
+  display: flex;
+}
+
+.cute-intro img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+.cute-intro .item {
+  flex-grow: 1;
+  height: 100px;
+  width: 100px;
+}
+
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  flex-wrap: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+.item-double {
+  flex: 2;
+}
+
+.item img {
+  width: 400px;
+  height: 300px;
+  margin-top: 2rem;
+}
+
+footer {
+  background-color: #ffcce6;
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+
+
+
+
+/* --- Typography --- 
+h2 {
+  font-size: 25px;
+  font-family: Futura;
+  margin: 0 10px;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: Futura;
+}
+
+p {
+  font-family: Futura;
+  line-height: 1.5em;
+}
+
+main a {
+  text-decoration: none;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+
+
+main img {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+
+
+
+/* --- Desktop --- 
+@media all and (mind-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header h1 {
+    font-size: 52px;
+  }
+
+  header nav {
+    margin-top: 14px;
+  }
+
+  header nav ul li:last-child a {
+    margin-right: 5px;
+  }
+}
+
+
+
+
+/* --- Contact Form --- 
+form {
+  padding: 10px;
+}
+
+form label {
+  display: block;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+fieldset {
+  background-color: rosybrown;
+} */
+
+/* -------  General Styles ------- */
+
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  
+}
+
+header {
+  background-color: #ffcce6;
+  background-image: url(images/heartbackground.jpg);
+  margin-bottom: 40px;
+  border-bottom: 2px solid darkred;
+}
+
+header h1 {
+  font-family: Futura, monospace;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 20px 50px;
+}
+
+/* ---  Navigation --- */
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+  font-family: monospace;
+  font-size: 25px;
+}
+
+header nav ul li a:hover {
+  color: red;
+}
+
+/* ---  Primary Groups --- */
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #ffcce6;
+  margin-bottom: 0;
+}
+
+/* ---  Typography --- */
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+ line-height: 1.5em;
+ margin-bottom: 0;
+}
+
+main a {
+	font-weight: 700;
+  text-decoration: none;	
+  color: black;
+  text-align: center;
+}
+
+main a:hover {
+  text-decoration: underline;	
+  color: red;
+}
+
+main a:visited {
+  color: limegreen;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+main img {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  list-style-type: none;
+}
+
+
+/* ---  (Desktop) Groups & Items --- */
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .logo {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+  
+  header nav {
+    margin-top: 14px;
+  }
+}
+
+/* Contact Form Design */
+
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
+
+fieldset {
+  background-image: url(images/heartbackground.jpg);
+  border: 1px solid red;
+}

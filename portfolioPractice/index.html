@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Kyra Palmer - Software Developer</title>
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--header w/ h1 + nav element-->
+    <header>
+      <h1>Kyra Palmer</h1>
+      <!-- <h2>Web Developer</h2> -->
+      <nav>
+        <ul id="menu">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--main container w/ Intro, About Me, and Contact sections-->
+    <main>
+      <!--intro section-->
+      <section id="Home" class="cute-intro">
+        <div class="group">
+            <div class="item">
+              <img
+                src="images/kyrapalmer.png"
+                alt="Kyra Palmer, blonde woman in light blue shirt"
+                class="image-enhanced"/>
+            </div>
+            <div class="item">
+            <h2>🤠 Howdy!</h2>
+            <p>I'm Kyra (pronounced Keer-ah), developer-in-training and Engineering
+              Immersion student at Thinkful.</p>
+            <p>📍 North Dakota, USA</p>
+            </div>
+        </div>
+      </section>
+
+      <!--about me section w/ heading, p content, and unordered list-->
+      <section id="About">
+        <h2>About Me</h2>
+          <div class="group">
+            
+            <div class="item">
+
+              <p>
+                After graduating college in 2019, I worked and volunteered at
+                non-profits in programs seeking solutions to community problems (youth intervention, 
+                climate change, and energy poverty, to name a few). I
+                love tackling the big problems, and I can't wait to bring this
+                solution-oriented mindset to my future projects and teams as a
+                software developer.
+              </p>
+              <p>
+                As an Engineering Immersion student, I'm learning the
+                fundamentals of frontend and backend development.
+              </p>
+              <p><b>Topics I'm studying at Thinkful:</b> Javascript, React, Node.js, 
+                test-driven development, and so much more!</p>
+              <p><b>Topics I've studied elsewhere:</b> international relations, statistics, 
+                political science, research methods, humanitarian action, French, and Mandarin Chinese.</p>
+              <p style="text-align: center;"><b>Thinkful graduation: July 2021</b></p>
+            </div>
+        </div>
+      </section>
+
+      <hr />
+      <section id="Projects">
+        <h2>Projects</h2>
+        <div class="group">
+          
+          <div class="item">
+            <img src="images/books.jpg"
+              alt="Local Library Site - Kyra Palmer" />
+            <h3>Local Library Site</h3>
+            <p>Utilized TDD and Javascript to build a responsive page that presents 
+              data on books, authors, and accounts from a local library.</p>
+            <a href="https://github.com/kyrapalmer/local_library">Github repo</a><br>
+            <a href="https://kyrapalmer.github.io/local_library/public/">Check me out!</a>
+          </div>
+          <div class="item">
+            <img src="images/cipherring.jpeg"
+              alt="Decoder Ring Project - Kyra Palmer"/>
+            <h3>Decoder Ring</h3>
+            <p>Utilized TDD and Javascript to build three functional ciphers.</p>
+            <a href="https://github.com/kyrapalmer/Project_Decoder_Ring_1">Github repo</a><br>
+            <a href="https://kyrapalmer.github.io/Project_Decoder_Ring_1/">Check me out!</a>
+          </div>
+          <div class="item">
+            <img src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+              alt="Future Project - Kyra Palmer"/>
+            <h3>Future Project</h3>
+            <p>React Website coming soon!</p>
+          </div>
+          <div class="item">
+            <img src="images/christopher-gower-m_HRfLhgABo-unsplash.jpg"
+              alt="Future Project - Kyra Palmer"/>
+            <h3>Future Project</h3>
+            <p>Pomodoro Timer coming soon!</p>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <!--contact section w/ oform and links-->
+      <section id="Contact">
+        <h2>Contact Me</h2>
+        <div class="group">
+          <div class="item">
+            <form action="https://formspree.io/kyrapalmer112@gmail.com" method="post">
+              <fieldset>
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="name"/>
+                <label for="email">Email:</label>
+                <input id="email" name="email" type="email"/>
+                <label for="message">Your message:</label>
+                <textarea id="message" name="message" placeholder="Can't wait to chat!"></textarea> 
+                <button id="submit" value="submit" type="submit">Submit</button>
+                <button id="reset" value="reset" type="reset">Reset</button>
+              </fieldset> 
+            </form>
+          </div>
+          <div class="item item-double">
+              <ul>
+                <li>Email: kyrapalmer112@gmail.com</li>
+                <li><a href="https://github.com/kyrapalmer">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/kyrapalmer/">LinkedIn</a></li>
+              </ul>
+            <img src="images/courchevelsunset.jpg" />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© Kyra Palmer</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
